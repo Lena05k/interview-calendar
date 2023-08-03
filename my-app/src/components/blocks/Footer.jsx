@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import styled from 'styled-components';
-import { TableContext } from '../contexts/TableContext';
+import { TableContext } from '../../contexts/TableContext';
 
 const FooterWrapper = styled.div`
   position: sticky;
