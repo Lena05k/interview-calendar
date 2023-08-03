@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react';
 import styled from 'styled-components';
-import { TableContext } from '../contexts/TableContext';
+import { TableContext } from '../../contexts/TableContext';
 
 const TableBlock = styled.table`
   border-collapse: collapse;
