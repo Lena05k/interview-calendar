@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import { TableProvider } from './contexts/TableContext';
-import Header from './components/Header';
-import Week from './components/Week';
-import Time from './components/Time';
-import Table from './components/Table';
-import Footer from './components/Footer';
+import { TableProvider } from '../contexts/TableContext';
+import Header from './blocks/Header';
+import Week from './blocks/Week';
+import Time from './blocks/Time';
+import Table from './blocks/Table';
+import Footer from './blocks/Footer';
 
 const CalendarWrapper = styled.div`
   font-family: 'Roboto', sans-serif;
